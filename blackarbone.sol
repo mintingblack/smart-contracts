@@ -169,12 +169,12 @@ interface IREWARD {
     function deposit() external payable;
 }
 
-contract PopeyeAI is Context, IERC20, Ownable {
+contract MintingBlack is Context, IERC20, Ownable {
 
     using SafeMath for uint256;
 
-    string private _name = "PopeyeAI"; // token name
-    string private _symbol = "PopAi"; // token ticker
+    string private _name = "Minting Black"; // token name
+    string private _symbol = "BLACK"; // token ticker
     uint8 private _decimals = 9; // token decimals
 
     address public immutable deadAddress = 0x000000000000000000000000000000000000dEaD;
